@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/team-builder/static/css/main.da7b51f3.chunk.css",
-    "main.js": "/team-builder/static/js/main.d341591a.chunk.js",
-    "main.js.map": "/team-builder/static/js/main.d341591a.chunk.js.map",
+    "main.css": "/team-builder/static/css/main.8dc70ae0.chunk.css",
+    "main.js": "/team-builder/static/js/main.f8e41e0e.chunk.js",
+    "main.js.map": "/team-builder/static/js/main.f8e41e0e.chunk.js.map",
     "runtime-main.js": "/team-builder/static/js/runtime-main.dd05fa34.js",
     "runtime-main.js.map": "/team-builder/static/js/runtime-main.dd05fa34.js.map",
     "static/js/2.b4a2ca62.chunk.js": "/team-builder/static/js/2.b4a2ca62.chunk.js",
     "static/js/2.b4a2ca62.chunk.js.map": "/team-builder/static/js/2.b4a2ca62.chunk.js.map",
     "index.html": "/team-builder/index.html",
-    "precache-manifest.05feddbfcb03c26a24a4f75cc0d88c6d.js": "/team-builder/precache-manifest.05feddbfcb03c26a24a4f75cc0d88c6d.js",
+    "precache-manifest.44ceecb7ab8f8e7950df82d71cafccf7.js": "/team-builder/precache-manifest.44ceecb7ab8f8e7950df82d71cafccf7.js",
     "service-worker.js": "/team-builder/service-worker.js",
-    "static/css/main.da7b51f3.chunk.css.map": "/team-builder/static/css/main.da7b51f3.chunk.css.map",
+    "static/css/main.8dc70ae0.chunk.css.map": "/team-builder/static/css/main.8dc70ae0.chunk.css.map",
     "static/js/2.b4a2ca62.chunk.js.LICENSE": "/team-builder/static/js/2.b4a2ca62.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.dd05fa34.js",
     "static/js/2.b4a2ca62.chunk.js",
-    "static/css/main.da7b51f3.chunk.css",
-    "static/js/main.d341591a.chunk.js"
+    "static/css/main.8dc70ae0.chunk.css",
+    "static/js/main.f8e41e0e.chunk.js"
   ]
 }
