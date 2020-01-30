@@ -43,14 +43,14 @@ export default function TeamMember(props) {
                     <form onSubmit={(event) => { handleSubmit(event) }}>
                         <div className='flexbox'>
                             <div className='flexitem'>
-                                <label htmlFor={`name${props.index}`}>Name: </label>
-                                <label htmlFor={`email${props.index}`}>Email: </label>
-                                <label htmlFor={`role${props.index}`}>Role: </label>
+                                <p><label htmlFor={`name${props.index}`}>Name: </label></p>
+                                <p><label htmlFor={`email${props.index}`}>Email: </label></p>
+                                <p><label htmlFor={`role${props.index}`}>Role: </label></p>
                             </div>
                             <div className='flexitem'>
-                                <input id={`name${props.index}`} name='name' type='text' value={memberEdit.name} onChange={event => handleChange(event)} />
-                                <input id={`email${props.index}`} name='email' type='text' value={memberEdit.email} onChange={event => handleChange(event)} />
-                                <input id={`role${props.index}`} name='role' type='text' value={memberEdit.role} onChange={event => handleChange(event)} />
+                                <p><input id={`name${props.index}`} name='name' type='text' value={memberEdit.name} onChange={event => handleChange(event)} /></p>
+                                <p><input id={`email${props.index}`} name='email' type='text' value={memberEdit.email} onChange={event => handleChange(event)} /></p>
+                                <p><input id={`role${props.index}`} name='role' type='text' value={memberEdit.role} onChange={event => handleChange(event)} /></p>
                             </div>
                         </div>
                         <input type='submit'></input>
