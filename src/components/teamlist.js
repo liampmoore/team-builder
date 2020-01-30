@@ -8,7 +8,7 @@ export default function TeamList(props) {
             <MemberInput setMembers={props.setMembers} members={props.members}></MemberInput>
             {props.members.map((member, index) => {
                 console.log(member, index)
-                return <TeamMember key={member.name} index={index} member={member}/>
+                return <TeamMember key={member.name} index={index} member={member} members={props.members} setMembers={props.setMembers}/>
             })}
         </div>
     )

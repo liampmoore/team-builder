@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import TeamList from './components/teamlist'
 
 function App() {
@@ -8,7 +8,9 @@ function App() {
     role: 'Web Developer' }
   ]);
 
-  
+  useEffect(() => {
+    console.log(members)
+  }, [members])
   return (
     <div>
       <TeamList members={members} setMembers={setMembers}></TeamList>

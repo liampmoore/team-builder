@@ -18,6 +18,7 @@ export default function MemberInput(props) {
 
     return (
         <div className='card'>
+            <h3>Make a new card here:</h3>
             <form onSubmit={(event) => {
                 event.preventDefault();
                 props.setMembers(
@@ -25,11 +26,21 @@ export default function MemberInput(props) {
                     newMember]
                 )
             }}>
-                <label><strong>Name: </strong><input name='name' type='text' value={newMember.name} onChange={event => handleChange(event)}/></label>
-                <label><strong>Email: </strong><input name='email' type='text' value={newMember.email} onChange={event => handleChange(event)}/></label>
-                <label><strong>Role: </strong><input name='role' type='text' value={newMember.role} onChange={event => handleChange(event)}/></label>
+                <div className='flexbox'>
+                    <div className='flexitem'>
+                        <label htmlFor='name'>Name: </label>
+                        <label htmlFor='email'>Email: </label>
+                        <label htmlFor='role'>Role: </label>
+                    </div>
+                    <div className='flexitem'>
+                        <input id='name' name='name' type='text' value={newMember.name} onChange={event => handleChange(event)}/>
+                        <input id ='email' name='email' type='text' value={newMember.email} onChange={event => handleChange(event)}/>
+                        <input id='role' name='role' type='text' value={newMember.role} onChange={event => handleChange(event)}/>
+                    </div>
+                </div>
                 <label><input type='submit'></input></label>
             </form>
+            <p style={{color: 'blue', fontSize: '.85rem'}}>Or doubleclick a card below to edit...</p>
         </div>
     )
 }
