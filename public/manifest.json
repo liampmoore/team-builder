@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Teammember List",
+  "name": "Editable list of teammembers",
   "icons": [
     {
       "src": "favicon.ico",
