@@ -4,14 +4,15 @@
     border-radius: 5px;
 
     box-sizing: border-box;
-    padding: 2%;
+    padding: 5%;
 
     margin: 30px auto;
 }
 .container {
     max-width: 800px;
-    min-width: 300px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1%;
 }
 
 .flexbox {
@@ -29,5 +30,5 @@ label {
 
 input {
     display: block;
-    margin: .6rem 0;
+    margin: 6px;
 }
