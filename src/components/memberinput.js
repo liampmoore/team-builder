@@ -38,7 +38,7 @@ export default function MemberInput(props) {
                         <input id='role' name='role' type='text' value={newMember.role} onChange={event => handleChange(event)}/>
                     </div>
                 </div>
-                <label><input type='submit'></input></label>
+                <input type='submit'></input>
             </form>
             <p style={{color: 'blue', fontSize: '.85rem'}}>Or doubleclick a card below to edit...</p>
         </div>
