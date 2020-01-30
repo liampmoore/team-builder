@@ -30,9 +30,18 @@ export default function TeamMember(props) {
             {editMode ?
             <>
             <form onSubmit={(event) => {handleSubmit(event)}}>
-                <label>Name: <input name='name' type='text' value={memberEdit.name} onChange={event => handleChange(event)}/></label>
-                <label>Email: <input name='email' type='text' value={memberEdit.email} onChange={event => handleChange(event)}/></label>
-                <label>Role: <input name='role' type='text' value={memberEdit.role} onChange={event => handleChange(event)}/></label>
+            <div className='flexbox'>
+                    <div className='flexitem'>
+                        <label htmlFor={`name${props.index}`}>Name: </label>
+                        <label htmlFor={`email${props.index}`}>Email: </label>
+                        <label htmlFor={`role${props.index}`}>Role: </label>
+                    </div>
+                    <div className='flexitem'>
+                        <input id={`name${props.index}`} name='name' type='text' value={memberEdit.name} onChange={event => handleChange(event)}/>
+                        <input id ={`email${props.index}`} name='email' type='text' value={memberEdit.email} onChange={event => handleChange(event)}/>
+                        <input id={`role${props.index}`} name='role' type='text' value={memberEdit.role} onChange={event => handleChange(event)}/>
+                    </div>
+                </div>
                 <label><input type='submit'></input></label>
             </form>
             </>
